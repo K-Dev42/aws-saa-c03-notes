@@ -1,0 +1,12 @@
+# Secrets / environment files
+.env
+.env.*
+*.env
+
+# AWS credentials if copied accidentally
+.aws/
+credentials
+
+# Private keys
+*.pem
+*.key

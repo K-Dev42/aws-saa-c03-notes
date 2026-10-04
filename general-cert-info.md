@@ -1,3 +1,4 @@
+# Content Outline
 There will be 4 domains that are going to be tested on
 
 ### Domain 1 (30%): Design Secure Architecture
@@ -11,3 +12,11 @@ There will be 4 domains that are going to be tested on
 
 ### Domain 4 (20%): Cost-Optimized Architectures
 - 13 questions
+
+# Duration
+Exam time is around 2.1 hours (2mins per question)
+    - Exam time: 130 mins 
+    - Seat time: 160 mins
+
+# Cert valid period
+- Valid for 36 months
