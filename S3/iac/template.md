@@ -6,7 +6,7 @@ Instead of manually creating S3 buckets, IAM roles, EC2 instances, etc. We can c
 
 ---
 
-Sample template that create an S3 bucket: 
+> Sample template that create an S3 bucket: 
 
 AWSTemplateFormatVersion: '2010-09-09'
 
