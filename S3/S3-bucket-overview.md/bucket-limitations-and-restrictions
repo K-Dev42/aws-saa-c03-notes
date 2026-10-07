@@ -1,0 +1,8 @@
+1. You can have up to 100 buckets in each aws account and this figure can be increased up to 1000 upon a service request
+2. You have to empty a bucker first before we can delete it
+3. no max bucket size and no limit to the number of objects in a bucket
+    - files can be between 0 and 5 TBs
+        - for files larger than 100MB, you should use multi-part upload
+    - S3 for ASW Outpost has limits
+4. Get, Put, List, Delete operations are designed for high availability
+    Create, Delete or configuration operations should be run less often
