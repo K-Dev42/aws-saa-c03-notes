@@ -12,8 +12,13 @@
 
 ### examples
 mybucket123 --> valid
+
 123.456.789.012 --> invalid because it is formatted like an IP address
+
 My-bucket --> invalid because there is an uppercase
+
 data.bucket..archive --> invalid because it contains adjacent periods
+
 log-bucket --> valid
+
 ...
