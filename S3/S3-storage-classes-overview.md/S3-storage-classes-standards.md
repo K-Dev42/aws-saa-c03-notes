@@ -51,9 +51,10 @@ Fast objects only exist in one AZ. Cheaper than Standard IA by 20% less
 
 ### S3 Glacier storage service
 **S3 Glacier Instant Retrieval** for long-term cold storage. Get data instantly
-**S3 Glacier Flexible Retrieval** takes minutes to hours to get data (Standard, Expidiated, Bulk Retrieval)
+**S3 Glacier Flexible Retrieval** (not a separate service and does not require a vault) takes minutes to hours to get data (Standard, Expidiated, Bulk Retrieval)
 **S3 Glacier Deep Archive** the lowest cost storage class. Data retrieval time is 12 hours 
 
 > S3 outpost has its own storage class.
 > There is another storage class but it is just a legacy class with no real cost benefit and that is S3 reduced redundancy storage (RRS)
 > You can change storage class anytime you want and you can do that via aws cli. the syntax are as follow --> aws s3 cp hello.txt s3://examplebucketname --storage-class STANDARD_IA
+> Archived objects will have an additional 40KBs of data which is 32KB for archive index and metadata and the remaining 8KB will be the name of the object. Therefore, it is recommended to store fewer and larger file since you are getting charge based on the file size per request in S3 glacier. 

@@ -1,0 +1,1 @@
+**Definition**: it is an HTTP-header based mechanism that allows a server to indicate any other origins (domains, scheme, or port) than its own from which a browser should permit loading of resources. 
