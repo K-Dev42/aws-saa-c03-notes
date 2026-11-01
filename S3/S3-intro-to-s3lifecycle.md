@@ -15,3 +15,10 @@ Lifecycle Rule Actions
 - Move noncurrent versions of objects between storage classes
 - Expire current versions of objects
 - Permanently delete noncurrent versions of objects
+- Delete expired object with delete markers or incomplete multipart uploads
+
+Lifecycle Filters
+- Filter based on prefix
+- Filter based on object tags
+- Filter based on object size (min and/or max)
+
