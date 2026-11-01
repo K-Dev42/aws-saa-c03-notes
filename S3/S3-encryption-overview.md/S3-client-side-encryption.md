@@ -1,0 +1,1 @@
+Client-side encryption is when you encrypt your own files before uploading them to S3. This provides a guarantee that AWS and any third-party can't decrypt your data. 
