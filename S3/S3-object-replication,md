@@ -1,0 +1,16 @@
+## Definition
+The idea here for this concept is whenever we want to make a copy of an object somewhere else. 
+Object replication can help with:
+- Replicate objects while retaining metadata
+- Replicate objects into different storage classes
+- Maintain object copies under different ownership
+- Keep objects stored over multiple AWS regions
+- Replicate objects within 15 minutes 
+- Sync buckets, replicate existing objects, and replicate previously failed or replicated objects
+- Replicate objects and fail over to a bucket in another AWS region 
+
+Replication options in S3
+1. Cross-Region Replication (live-replication)
+2. Same-Region Replication (live-replication)
+3. Bi-Directional Replication (live-replication)
+4. S3 Batch Replication (on-demand)
