@@ -4,16 +4,16 @@ Takes inventory of objects in an S3 bucket on a repeating schedule so you have a
 The output file will be put in its own S3 bucket
 
 Frequency:
-    - Daily: delivered within 48 hours
-    - Weekly: First report delivered within 48 hours and then future reports delivered every Sunday
+- Daily: delivered within 48 hours
+- Weekly: First report delivered within 48 hours and then future reports delivered every Sunday
 
 Output format:
-    - CSV
-    - ORC
-    - Parquet
+- CSV
+- ORC
+- Parquet
 
 Inventory scope:
-    - Specific prefixes to filter objects
-    - Specific all or only current versions
+- Specific prefixes to filter objects
+- Specific all or only current versions
 
 > The cool thing here is you can specify additional metadata to be included in the report 
