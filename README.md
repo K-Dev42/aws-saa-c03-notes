@@ -5,9 +5,9 @@ There are a lot of things to do but I am excited to learn so let's do this :D
 
 ---
 
-Today is 11/02/2026.
+Today is 11/04/2026.
 
-Progress checker: 10:37:20/2:02:29:18
+Progress checker: 10:47:43/2:02:29:18
 
 Video: AWS SAA-C03 full course from freeCodeCamp.org
 
