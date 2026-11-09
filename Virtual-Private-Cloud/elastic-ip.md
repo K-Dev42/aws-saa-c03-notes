@@ -16,3 +16,9 @@ Additional facts
 - Elastic IPs are charge $1 for each that is allocated and are unassociated (so if you use these addresses then they will not be charge)
 - Elastic IPs also include the public IPv4 address charge
 - Elastic IPs can be associated or unassociated to an instance eg EC2 or to a primary network card eg ENI
+
+Steps to use EIP
+1. Allocate it to a VPC 
+2. Associate an EIP
+3. Disassociate an EIP
+4. Deallocate an EIP
