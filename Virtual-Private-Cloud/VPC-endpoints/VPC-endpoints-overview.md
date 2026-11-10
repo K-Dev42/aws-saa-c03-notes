@@ -1,5 +1,5 @@
 ## Definition
-VPC endpoints allow you to privately connect your VPC to other AWS and other services
+VPC endpoints allow you to privately connect your VPC to other AWS and other services. In other words it is a point of access to a service
 
 > Think of it as a secret tunnel where you don't have to leave the AWS network
 
