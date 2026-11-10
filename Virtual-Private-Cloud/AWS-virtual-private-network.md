@@ -49,6 +49,14 @@ Typical requirements that can be configured
 A transit gateway is a transit hub that you can use to interconnect your VPCs and your on-premises netoworks 
 Transit gateway can either support either IPv4 and **IPv6** traffic inside the VPN tunnel
 
+- Transit gateway leverages AWS Resource Manager (RAM)
+- Operates as a virtual router at the regional level
+- You can attach up to 5000 VPC to each pathway. An ENI will be provisioned in target VPC to facilitate communication 
+- You can attach your AWS VPN connection to a transit gateway 
+- You can attach Direct Connect Connections to a transit gateway
+- You can attach third-party virtual appliance via transit gateway attachments 
+- You can peer connect with other transit gateways 
+
 
 ### AWS Client VPN
 Securely connect users to AWS or on-premises networks 
