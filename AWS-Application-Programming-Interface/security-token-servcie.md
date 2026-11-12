@@ -4,9 +4,9 @@ STS is a web service that enables you to request temporary, limited-privilege cr
 AWS Security Token Service (STS) is a global service, and all AWS STS requests go to a single endpoint at https://sts.amazonaws.com
 
 You can use the following API actions to obtain STS:
-- AssumeRole
+- **AssumeRole**
 - AssumeRoleWithSAML
-- AssumeRoleWithWebidentity
+- **AssumeRoleWithWebidentity**
 - DecodeAuthorizationMessage
 - GetAccessKeyInfo
 - GetCallerIdentity
