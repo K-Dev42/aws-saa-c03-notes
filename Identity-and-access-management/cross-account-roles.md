@@ -1,0 +1,2 @@
+## Definition
+You can grant user from different AWS account access to resources in your account through a Cross-Account Role. This allows you to not to have to create them a user accont within your system 
