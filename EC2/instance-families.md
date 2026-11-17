@@ -1,0 +1,28 @@
+## Definition
+Instane Families are different combinations of CPU, Memory, Storage, and Networking capacity. 
+
+Instance families allow you to choose the appropriate combination of capacity to meet your application's unique requirements. 
+
+> Different instance families are different because of the varying hardware used to give them their unique properties. 
+
+**General Purpose**: A1, T2, T3a, M4, M5, M5n, M6zn, M6g, M6i, Mac
+
+- balance of compute, memory and networking resources. ***Use-cases*** web servers and code repositories
+
+**Compute Optimized**: C5, C4, Cba, C6g, C6gn
+
+- ideal for compute bound applications that benefit from high performance processor. ***Use-cases*** scientific modeling, dedicated gaming servers and ad server engines
+
+**Memory Optimized**: R4, R5, R5a, R5b, R5n, X1, X1e, High Memory, z1d
+
+- fast performance for workloads that process large data sets in memory. ***Use-cases*** in-memory caches, in-memory databases, real time big data analytics
+
+**Accelerated Optimized**: P2, P3, P4, G3, G4dn, G4ad, F1, InF1, VT1
+
+- hardware accelerators, or co-processors. ***Use-cases*** Machine learning, computational finance, seismic analysis, speech recognition
+
+**Storage Optimized**: I3, I3en, D2, D3, D3en, H1
+
+- high, sequential read and write access to very large data sets on local storage. ***Use-cases*** NoSQL, in-memory or transactional databases, data warehousing 
+
+> The only relevant families that is for solutions architect are: M - General purpose, T - Burstable performance
