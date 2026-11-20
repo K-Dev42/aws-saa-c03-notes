@@ -42,7 +42,7 @@ Or in other word this type of routing would route to resource that is located wi
 ### Geoproximity Routing Policies
 geoproximity routing policies allow you to direct traffic based on the geographic location of your users and your AWS resources
 
-You cna route more or less traffic to a specific resource be specifying a 'Bias' value. 
+You can route more or less traffic to a specific resource be specifying a 'Bias' value. 
 
 Bias values expand or shrink the size of the geographic region from which traffic is routed to
 You must use Route 53 Traffic Flow to use geoproximity routing policies

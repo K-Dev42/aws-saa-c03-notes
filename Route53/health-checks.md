@@ -1,0 +1,5 @@
+- Checks health every 30s by default. Can be reduced to every 10s
+- A health check can initiate a failover if the status is returned unhealthy
+- A cloudwatch Alarm can be created to alert you of status unhealthy
+- A health check can monitor other health checks to create a chain of reactions
+- Can create up to 50 health checks for AWS endpoints within or linked to the same AWS account 
