@@ -1,0 +1,2 @@
+## Definition
+MQ Telemetry Transport (MQTT) is a light-weight pub/sub messaging protocol MQTT uses minimal network bandwidth and often used in Internet of Things (IoTs) or real-time messaging apps. Suitable for machine-to-machine (M2M) communication 
