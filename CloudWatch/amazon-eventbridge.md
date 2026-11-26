@@ -1,3 +1,22 @@
+## Definition
+what is an event bus?
+An event bus receives events from a source and routes events to a target based on rules
+
+EventBridge is a serverless event bus service that is used for application intergration by streaming real-time data to your applications.
+
+## Core components
+- Event Bus: holds event data, define rules on an event bus to react to events. We have three types: default event bus, custom event bus, and SaaS event bus
+
+- Producers: AWS services that emits events
+
+- Partner Sources: third-party apps that can emit events to an event bus
+
+- Events: data emitted by services. JSON objects that travel (stream) within the event bus
+
+- Rules: determines what events to capture and pass to targets. (100 rules per bus)
+
+- Targets: AWS Services that consume events (5 targets per rule)
+
 ## The ananomy of an event
 
 The json file of an event:
